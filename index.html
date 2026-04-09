@@ -370,7 +370,7 @@ const PALETTE = [
 // INIT
 // ════════════════════════════════════════════════════════════
 document.addEventListener('DOMContentLoaded', () => {
-  const isConfigured = !APPS_SCRIPT_URL.includes('REEMPLAZAR_CON_SU_URL');
+  const isConfigured = !APPS_SCRIPT_URL.includes('https://script.google.com/macros/s/AKfycbxHEQ9rUvoRcP3zOcNw2wMQdfKLgUZt3d4Hke4hNZZGdpZlS6mcZdy6BjPcz89cUuJF/exec');
   if (isConfigured) document.getElementById('configBanner').style.display = 'none';
   bindEvents();
   if (isConfigured) loadCodes();
